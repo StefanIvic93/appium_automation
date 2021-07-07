@@ -19,11 +19,8 @@ public class baseAppium {
 		desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "stefanEmulator");
 		desiredCapabilities.setCapability(MobileCapabilityType.APP, fileS.getAbsolutePath());
 
-		AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),
+		AndroidDriver<AndroidElement> androidDriver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),
 				desiredCapabilities);
-
-		// Basic test of the gitHub remote branch
-
 
 	}
 }

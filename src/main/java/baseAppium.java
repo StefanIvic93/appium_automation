@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class baseAppium {
 
-	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+	public static void main(String[] args) throws MalformedURLException {
 
 		File file = new File("src/main/java/");
 		File fileS = new File(file, "app-eld-debug.apk");
